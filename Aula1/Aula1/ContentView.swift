@@ -12,6 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
+            
             Text("Calculadora de Idade Canina!")
                 .font(.largeTitle)
                 .fontWeight(.medium)
