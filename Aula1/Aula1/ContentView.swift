@@ -30,7 +30,7 @@ struct ContentView: View {
                     .scaledToFit()
                 
                 
-                TextField("Digite a idade humana", text: $IdadeHumana)
+                TextField("Digite a sua idade (humana)", text: $IdadeHumana)
                     .keyboardType(.numberPad)
                     .padding()
                     .background(Color.white)
